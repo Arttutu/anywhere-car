@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./index.module.scss"
-import Banner from '../Componentes/Banner'
+import Banner from '../../Componentes/Banner'
 
 export default function Index() {
   return (

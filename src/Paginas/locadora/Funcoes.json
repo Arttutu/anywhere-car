@@ -1,0 +1,49 @@
+[
+    {
+      "id": 1,
+      "titulo": "Estacionamentos Conveniados",
+      "descricao": "Descrição 1",
+      "icones": ["carro"]
+    },
+    {
+        "id": 2,
+        "titulo": "Financiamento",
+        "descricao": "Em desenvolvimento",
+        "icones": ["financiamento"],
+        "cor": "#FF3B33"
+      },
+      {
+        "id": 3,
+        "titulo": "Comprar Veiculos",
+        "descricao": "Em desenvolvimento",
+        "icones": ["comprar"],
+        "cor": "#FF3B33"
+      },
+      {
+        "id": 4,
+        "titulo": "Documentos e Multas",
+        "descricao": "Em desenvolvimento",
+        "icones": ["multa"],
+        "cor": "#FF3B33"
+      },
+      {
+        "id": 5,
+        "titulo": "Sistema de Gestão",
+        "descricao": "Em desenvolvimento",
+        "icones": ["gestao"],
+        "cor": "#FF3B33"
+      },
+      {
+        "id": 6,
+        "titulo": "Vendas de Seminovos",
+        "descricao": "Em desenvolvimento",
+        "icones": ["vendas"],
+        "cor": "#FF3B33"
+      }
+          
+          
+          
+  
+
+  ]
+  

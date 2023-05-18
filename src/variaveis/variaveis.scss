@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap");
+@font-face {
+  font-family: "FontPrincipal";
+  src: url("./BalooPaaji-Regular.ttf");
+  font-display: unset;
+}
+$cor-primaria: #0f98f8;
+$cor-secundaria: #fff;
+$font-principal: "FontPrincipal", "Baloo Paaji 2", cursive;

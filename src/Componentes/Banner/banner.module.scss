@@ -1,14 +1,49 @@
-.banner{
+@import "../../variaveis/variaveis";
+.bannerPrincipal{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    height: 100vh;
-    width: 100vw;
     background-image: url(./banner.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size:  800px;
     background-position-y: 0px;
+    height: 100vh;
+    width: 100%;
+    .banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:5rem;
+        &__conteudo{
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+            h1{
+                color: $cor-primaria;
+                font-weight: 400;
+                font-size: 52px;
+                font-family: $font-principal;   
+            }
+            p{
+                font-weight: 600;
+                font-size: 24px;
+                font-family: $font-principal;   
+            }
+            &_botoes{
+               display: flex;
+               align-items: center;
+               justify-content: left;
+               gap: 2rem;
+     
+            }
+        }
+        &__imagem{
+            &_carro{
+                width: 600px;
+            }
+        }
+    
+}
+
 
 }

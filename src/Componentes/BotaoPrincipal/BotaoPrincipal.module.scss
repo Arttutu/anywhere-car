@@ -1,0 +1,11 @@
+@import "../../variaveis/variaveis";
+          
+.botao{
+    background-color: $cor-primaria;
+    color: $cor-secundaria;
+    padding: 8px;
+    border-radius: 5%;
+    border:none;
+    font-size: 18px;
+    font-family: $font-principal; 
+   }
