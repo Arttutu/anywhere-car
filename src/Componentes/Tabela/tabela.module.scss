@@ -1,0 +1,29 @@
+@import "../../variaveis/variaveis";
+.tabela {
+  table {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid $cor-primaria;
+    border-collapse: collapse;
+    .coluna {
+      font-family: $font-principal;
+      color: $cor-secundaria;
+      font-size: 18px;
+      background-color: $cor-primaria;
+      &__tituloTabela {
+        padding: 20px;
+
+        &__empresa {
+          width: 200px;
+        }
+        &__vagas {
+          width: 100px;
+        }
+        &__logradouro {
+          width: 200px;
+        }
+      }
+    }
+  }
+}

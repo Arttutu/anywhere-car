@@ -1,5 +1,4 @@
 @import "../../variaveis/variaveis";
-
 .formulario {
   display: flex;
   justify-content: center;
@@ -9,7 +8,7 @@
   background-position: right;
   background-size: 800px;
   background-position-y: 0px;
-  height: calc(100vh - 0px);
+  height: calc(100vh - 100px);
   &__conteudo {
     margin-top: 100px;
     display: flex;

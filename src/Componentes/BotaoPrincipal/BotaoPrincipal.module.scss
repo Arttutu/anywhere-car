@@ -3,11 +3,12 @@
 .botao {
   background-color: $cor-primaria;
   color: $cor-secundaria;
-  padding: 8px;
+  padding: 1px;
   border-radius: 5%;
   border: none;
   font-size: 18px;
   font-family: $font-principal;
   cursor: pointer;
   width: 200px;
+  height: 50px;
 }

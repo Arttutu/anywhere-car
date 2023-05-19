@@ -27,6 +27,7 @@ export default function Locadora() {
                         desc={item.descricao}
                         cor={item.cor}
                         icone={item.icones}
+                        path={item.path}
                       />
                     </Grid>
                   )
