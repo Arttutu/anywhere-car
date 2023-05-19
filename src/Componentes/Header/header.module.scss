@@ -9,14 +9,23 @@
   position: fixed;
   width: 100vw;
   z-index: 1;
-  box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.205);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.205);
   text-decoration: none;
-  
-  &__logo {
-    font-family: $font-principal;
 
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    h3 {
+      font-family: $font-principal;
+      color: $cor-primaria;
+      font-size: 30px;
+    }
+  }
+
+  &__icone {
     color: $cor-primaria;
-    font-size: 30px;
+    font-size: 40px;
   }
   &__links {
     display: flex;
@@ -32,10 +41,6 @@
       margin: 0px 10px;
       font-size: 18px;
     }
-    &__item:hover {
-      text-decoration: $cor-secundaria 5px underline;
-      margin-top: 10px;
-    }
   }
   &__links__mobile {
     display: flex;
@@ -45,9 +50,7 @@
     width: 75%;
   }
 }
-a.active {
-  font-size: 200px;
-}
+
 .mobile__icon {
   display: none;
 }

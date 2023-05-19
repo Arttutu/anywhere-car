@@ -14,15 +14,15 @@ export default function IconeFuncoes({icone}) {
           }
           else if (icon === "comprar") {
             return faCoins
-          } else if(icon == "financiamento"){
+          } else if(icon === "financiamento"){
             return faFileContract
-          } else if(icon == "multa"){
+          } else if(icon === "multa"){
             return faTriangleExclamation
           }
-          else if(icon == "gestao"){
+          else if(icon === "gestao"){
             return faSitemap
           }
-          else if(icon == "vendas"){
+          else if(icon === "vendas"){
             return faChartLine
           }
          

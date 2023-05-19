@@ -1,9 +1,12 @@
 import React from 'react'
+import styles from "./tituloMensagem.module.scss"
 
-export default function tituloMensagem() {
+export default function TituloMensagem({titulo, descricao}) {
   return (
-    <div>
-      
-    </div>
+  <>
+        <h1 className={styles.titulo}>{titulo}</h1>
+        <p className={styles.descricaol}>{descricao}</p>
+  </>
   )
 }
+

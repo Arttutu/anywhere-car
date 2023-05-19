@@ -1,0 +1,54 @@
+@import "../../variaveis/variaveis";
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../Componentes/Banner/banner.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 800px;
+  background-position-y: 0px;
+  height: calc(100vh - 0px);
+  &__conteudo {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    &__container {
+      display: flex;
+      align-items: center;
+      gap: 10rem;
+      img {
+        width: 500px;
+        height: 400px;
+        border-radius: 20px;
+      }
+      &__form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        align-items: center;
+        gap: 1.2rem;
+        &__titulo {
+          display: flex;
+          align-items: center;
+          gap: 1.2rem;
+          h1 {
+            font-family: $font-principal;
+            color: $cor-primaria;
+          }
+        }
+
+        &__box {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 1.2rem;
+        }
+      }
+    }
+  }
+}

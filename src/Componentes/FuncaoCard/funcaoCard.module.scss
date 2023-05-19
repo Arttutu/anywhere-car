@@ -1,20 +1,18 @@
 @import "../../variaveis/variaveis";
-.card{
-    
-    width: 250px;
-    height: 200px;
-    margin: 0px auto;
-    background-color: $cor-primaria;
-    border-radius: 20px;
-    padding: 10px;
-    h2{
-        font-family: $font-principal;
-        color: $cor-secundaria;
-    }
-    p{
-        font-family: $font-principal;
-        color: $cor-secundaria;
-    }
-    
-
+.card {
+  width: 250px;
+  height: 200px;
+  margin: 0px auto;
+  background-color: $cor-primaria;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.495);
+  h2 {
+    font-family: $font-principal;
+    color: $cor-secundaria;
+  }
+  p {
+    font-family: $font-principal;
+    color: $cor-secundaria;
+  }
 }
