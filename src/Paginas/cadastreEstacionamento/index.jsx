@@ -40,13 +40,31 @@ export default function CadastreEstacionamento() {
                             "
                   variant="outlined"
                   type="text"
+                  sx={{ border: 1, borderColor: "#0f98f8" }}
                 />
                 <TextField
                   id="fullWidth"
-                  label=" Endereço
+                  label=" Logradouro
                             "
                   variant="outlined"
                   type="text"
+                  sx={{ border: 1, borderColor: "#0f98f8" }}
+                />
+                <TextField
+                  id="fullWidth"
+                  label=" Bairro
+                            "
+                  variant="outlined"
+                  type="text"
+                  sx={{ border: 1, borderColor: "#0f98f8" }}
+                />
+                <TextField
+                  id="fullWidth"
+                  label=" Número
+                            "
+                  variant="outlined"
+                  type="number"
+                  sx={{ border: 1, borderColor: "#0f98f8" }}
                 />
                 <TextField
                   id="outlined-basic"
@@ -54,12 +72,14 @@ export default function CadastreEstacionamento() {
                             "
                   variant="outlined"
                   type="number"
+                  sx={{ border: 1, borderColor: "#0f98f8" }}
                 />
                 <TextField
                   id="outlined-basic"
                   label=" Número de Vagas Disponíveis"
                   variant="outlined"
                   type="number"
+                  sx={{ border: 1, borderColor: "#0f98f8" }}
                 />
               </Box>
 
