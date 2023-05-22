@@ -24,7 +24,10 @@ export default function Banner() {
                 <BotaoPrincipal descricao="Cadastre seu estabelecimento" />
               </Link>
               <Link to="/locadora">
-                <BotaoPrincipal descricao="Locadora" />
+                <BotaoPrincipal descricao="Acesse Nosso serviço" />
+              </Link>
+              <Link to="/">
+                <BotaoPrincipal descricao="Fale Conosco" />
               </Link>
             </div>
           </div>
