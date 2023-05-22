@@ -26,7 +26,7 @@ export default function Banner() {
               <Link to="/locadora">
                 <BotaoPrincipal descricao="Acesse Nosso serviço" />
               </Link>
-              <Link to="/">
+              <Link to="/faleconosco">
                 <BotaoPrincipal descricao="Fale Conosco" />
               </Link>
             </div>

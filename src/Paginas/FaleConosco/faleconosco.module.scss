@@ -1,0 +1,62 @@
+@import "../../variaveis/variaveis";
+.faleconosco {
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+  height: calc(100vh - 150px);
+  &__conteudo {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    &__titulo {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      h1 {
+        font-family: $font-principal;
+        color: $cor-primaria;
+        font-size: 52px;
+      }
+      p {
+        font-family: $font-principal;
+        font-size: 32px;
+      }
+    }
+    &__contatos {
+      display: flex;
+      margin-top: 100px;
+      justify-content: space-around;
+      gap: 5rem;
+      &__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid $cor-primaria;
+        background-color: $cor-primaria;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.495);
+        border-radius: 20px;
+        padding: 10px;
+        width: 400px;
+        height: 250px;
+        &__nome {
+          display: flex;
+          align-items: center;
+          gap: 2rem;
+          h2 {
+            color: $cor-secundaria;
+            font-family: $font-principal;
+
+            font-size: 42px;
+          }
+        }
+        span {
+          font-family: $font-principal;
+          color: black;
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}

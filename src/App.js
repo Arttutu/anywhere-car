@@ -4,6 +4,7 @@ import Index from "./Paginas/inicial"
 import Locadora from "./Paginas/locadora"
 import CadastreEstacionamento from "./Paginas/cadastreEstacionamento"
 import Estabelecimento from "./Paginas/estabelecimentos"
+import FaleConosco from "./Paginas/FaleConosco"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/locadora" element={<Locadora />} />
           <Route path="/cadastre" element={<CadastreEstacionamento />} />
           <Route path="/estabelecimento" element={<Estabelecimento />} />
+          <Route path="/faleconosco" element={<FaleConosco />} />
         </Routes>
       </BrowserRouter>
     </>
