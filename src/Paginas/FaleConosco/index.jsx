@@ -2,6 +2,8 @@ import React from "react"
 import styles from "./faleconosco.module.scss"
 import { AiFillPhone, AiFillMail } from "react-icons/ai"
 import { Container } from "@mui/material"
+import BotaoVoltar from "../../Componentes/BotaoVoltar"
+import { Link } from "react-router-dom"
 
 export default function FaleConosco() {
   const styleIcon = {
@@ -35,6 +37,11 @@ export default function FaleConosco() {
               </div>
               <span> anywherecar@fiap.com.br</span>
             </div>
+          </div>
+          <div className={styles.faleconosco__conteudo__botao}>
+            <Link to="/">
+              <BotaoVoltar />
+            </Link>
           </div>
         </div>
       </Container>

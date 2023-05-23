@@ -1,0 +1,12 @@
+@import "../../variaveis/variaveis";
+.estabelecimento {
+  font-family: $font-principal;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  th {
+    padding: 20px;
+  }
+  td {
+    border: 1px solid black;
+  }
+}

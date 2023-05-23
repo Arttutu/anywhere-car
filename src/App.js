@@ -5,6 +5,8 @@ import Locadora from "./Paginas/locadora"
 import CadastreEstacionamento from "./Paginas/cadastreEstacionamento"
 import Estabelecimento from "./Paginas/estabelecimentos"
 import FaleConosco from "./Paginas/FaleConosco"
+import Login from "./Paginas/Login"
+import EstabelecimentoTabela from "./Paginas/estabelecimentosTabela"
 
 function App() {
   return (
@@ -17,6 +19,11 @@ function App() {
           <Route path="/cadastre" element={<CadastreEstacionamento />} />
           <Route path="/estabelecimento" element={<Estabelecimento />} />
           <Route path="/faleconosco" element={<FaleConosco />} />
+          <Route path="/login" element={<Login />} />
+          <Route
+            path="/estabelecimentotabela"
+            element={<EstabelecimentoTabela />}
+          />
         </Routes>
       </BrowserRouter>
     </>

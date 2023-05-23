@@ -82,8 +82,9 @@ export default function CadastreEstacionamento() {
                   sx={{ border: 1, borderColor: "#0f98f8" }}
                 />
               </Box>
-
-              <BotaoPrincipal descricao="ENVIAR"></BotaoPrincipal>
+              <Link to="/estabelecimentotabela">
+                <BotaoPrincipal descricao="ENVIAR"></BotaoPrincipal>
+              </Link>
             </form>
           </div>
           <img src={img}></img>

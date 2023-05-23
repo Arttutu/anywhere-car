@@ -2,12 +2,15 @@
 .faleconosco {
   display: flex;
   justify-content: center;
+
   z-index: 100;
   height: calc(100vh - 150px);
   &__conteudo {
     margin-top: 150px;
     display: flex;
+    gap: 5rem;
     flex-direction: column;
+    align-items: center;
     &__titulo {
       display: flex;
       flex-direction: column;
@@ -25,7 +28,7 @@
     }
     &__contatos {
       display: flex;
-      margin-top: 100px;
+
       justify-content: space-around;
       gap: 5rem;
       &__info {

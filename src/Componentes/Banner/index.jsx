@@ -23,7 +23,7 @@ export default function Banner() {
               <Link to="/cadastre">
                 <BotaoPrincipal descricao="Cadastre seu estabelecimento" />
               </Link>
-              <Link to="/locadora">
+              <Link to="/login">
                 <BotaoPrincipal descricao="Acesse Nosso serviço" />
               </Link>
               <Link to="/faleconosco">

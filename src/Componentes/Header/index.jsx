@@ -27,12 +27,12 @@ export default function Header() {
             <li>Home</li>
           </NavLink>
           <NavLink to="/" className={styles.navbar__links__item}>
-            <li>Sobre Nós</li>
+            <li>Sobre o Projeto</li>
           </NavLink>
           <NavLink to="/" className={styles.navbar__links__item}>
             <li>Idealizadores</li>
           </NavLink>
-          <NavLink to="/" className={styles.navbar__links__item}>
+          <NavLink to="/faleconosco" className={styles.navbar__links__item}>
             <li>Contato</li>
           </NavLink>
         </ul>

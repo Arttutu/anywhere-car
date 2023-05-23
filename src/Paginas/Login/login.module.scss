@@ -1,0 +1,30 @@
+@import "../../variaveis/variaveis";
+.login {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../Componentes/Banner/banner.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 800px;
+  background-position-y: 0px;
+  height: calc(100vh - 100px);
+  &__conteudo {
+    margin-top: 100px;
+    &__container {
+      h1 {
+        font-family: $font-principal;
+        color: $cor-primaria;
+        font-size: 42px;
+        margin-bottom: 50px;
+      }
+      &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+      }
+    }
+  }
+}

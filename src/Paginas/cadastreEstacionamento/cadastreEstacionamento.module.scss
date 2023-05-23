@@ -1,6 +1,7 @@
 @import "../../variaveis/variaveis";
 .formulario {
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
   background-image: url(../../Componentes/Banner/banner.png);
@@ -8,7 +9,7 @@
   background-position: right;
   background-size: 800px;
   background-position-y: 0px;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 180px);
   &__conteudo {
     margin-top: 180px;
     display: flex;
@@ -40,7 +41,6 @@
             color: $cor-primaria;
           }
         }
-
         &__box {
           display: flex;
           flex-direction: column;

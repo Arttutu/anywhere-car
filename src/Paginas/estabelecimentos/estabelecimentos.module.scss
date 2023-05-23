@@ -1,7 +1,9 @@
 @import "../../variaveis/variaveis";
 .estabelecimento {
   display: flex;
-
+  height: calc(100vh - 100px);
+  justify-content: center;
+  align-items: center;
   text-align: center;
   &__titulo {
     margin-top: 100px;

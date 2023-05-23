@@ -1,8 +1,7 @@
 import React from "react"
 import styles from "./tabela.module.scss"
 import LinhasTabelas from "../LinhasTabela"
-import BotaoVoltar from "../BotaoVoltar"
-import { Link } from "react-router-dom"
+
 export default function Tabela() {
   return (
     <>
