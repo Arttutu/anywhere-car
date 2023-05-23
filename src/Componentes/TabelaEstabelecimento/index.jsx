@@ -58,7 +58,7 @@ export default function TabelaEstacionamento() {
             horaRetirada="13:00"
             dataDevolucao="15/11/2024"
             horaDevolucao="13:00"
-            NumeroVagas="4900"
+            NumeroVagas="490"
           />
         </table>
       </div>
