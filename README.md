@@ -23,4 +23,4 @@ Projeto teve que ser pensado e desenvolvido durante o período de de 10/05/2023 
 Foco no aperfeiçoamente e estudo do react e na estilização a scss module para deixar o código melhor organização
 
 ## Como usar
-Acesse o site: anywhere-car.vercel.app
+Acesse o site: https://anywhere-car.vercel.app
