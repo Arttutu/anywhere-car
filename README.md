@@ -1,14 +1,14 @@
-
 # AnyWhere Car
 
-| :placard: Vitrine.Dev |     |
-| -------------  | --- |
-| :sparkles: Nome        | **AnyWhere Car**
-| :label: Tecnologias | JavaScript, HTML, SCSS (tecnologias utilizadas)
-| :rocket: URL         | anywhere-car.vercel.app
-| :fire: Desafio     | 
+| :placard: Vitrine.Dev |                                                 |
+| --------------------- | ----------------------------------------------- |
+| :sparkles: Nome       | **AnyWhere Car**                                |
+| :label: Tecnologias   | JavaScript, HTML, SCSS (tecnologias utilizadas) |
+| :rocket: URL          | anywhere-car.vercel.app                         |
+| :fire: Desafio        |
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
+
 ![](https://github.com/Arttutu/anywhere-car/blob/master/telaInicial.png?raw=true#vitrinedev)
 
 ## O Desafio
@@ -20,7 +20,9 @@ Com isso, a BRQ desafia os alunos do curso de Análise e Desenvolvimento de Sist
 Projeto teve que ser pensado e desenvolvido durante o período de de 10/05/2023 A 23/05/2023
 
 ## Habilidades Desenvolvidas
+
 Foco no aperfeiçoamente e estudo do react e na estilização a scss module para deixar o código melhor organização
 
 ## Como usar
+
 Acesse o site: https://anywhere-car.vercel.app

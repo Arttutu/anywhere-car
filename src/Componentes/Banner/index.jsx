@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./banner.module.scss"
 import carro from "./carro.png"
-import { Button, Container } from "@mui/material"
+import { Container } from "@mui/material"
 import BotaoPrincipal from "../BotaoPrincipal"
 import { Link } from "react-router-dom"
 
